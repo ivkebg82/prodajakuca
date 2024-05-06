@@ -3,14 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+    <script
+      src="https://kit.fontawesome.com/6fa9afc952.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
     <nav class="nav-wrapper">
       <span>Search your house</span>
-      <input type="text" class="search" />
+      <input type="text" class="search" id="search" />
     </nav>
+
     <div class="photo-galery-wrapper">
       <img src="./images/house1.webp" alt="" />
       <img src="./images/house2.jpg" alt="" /><img
@@ -18,9 +26,39 @@
         alt=""
       /><img src="./images/house4.webp" alt="" />
     </div>
+
     <div class="main-content">
       <span class="span"></span>
     </div>
+
+    <div class="info-section">
+      <div class="info-section-left-side">
+        <p class="info-section-title">Everything you need you can find here</p>
+        <div class="left-side-icons-content">
+          <div class="first-icon">
+            <i class="fa-regular fa-thumbs-up"></i>
+            Lot of satisfied clients
+          </div>
+          <div class="second-icon">
+            <i class="fa-solid fa-key"></i>
+            Key in hands in 2 days
+          </div>
+          <div class="third-icon">
+            <i class="fa-regular fa-handshake"></i>
+            Every deal is possible with us
+          </div>
+        </div>
+      </div>
+
+      <div class="info-section-middle-side">
+        <p class="info-section-title">Everything you need you can find here</p>
+      </div>
+
+      <div class="info-section-right-side">
+        <p class="info-section-title">Everything you need you can find here</p>
+      </div>
+    </div>
+    <div class="bottom-section"></div>
     <script src="main.js"></script>
   </body>
 </html>
